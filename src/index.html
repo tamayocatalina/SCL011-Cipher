@@ -2,13 +2,64 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Red de espias aventureros</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <div id="root">
-      <h1>Hola mundo!</h1>
+
+        <div id=login> 
+         
+
+            <div id=logo>
+                <a href="https://ibb.co/XLV8TPB"><img src="https://i.ibb.co/tK3X56f/2-01.png" ></a>
+            </div>
+            <div id= intro>
+        <p>¿Nombre agente?</p>
+        <input type="text" id="userName"><br>
+        <button id="sendName" >🔎</button>
+           </div>
+          
+          </div>
+          
+            
+        
+        </div>
+      
+    
+
+
+    <div id= big>
+    
+        <h2><label id="welcome"></label></h2>
+        <div id= "offsetNumber">
+          <h4> Es momento que elijas que es lo que quieres hacer,<br> ingresa tu mensaje, 
+            elige un botón y luego envíaselo a otro espía!<h4>
+          
+                 <input id= "choseNumber" type=number min=1 max=10 placeholder="1">
+                 <button id="btnOffset" > Ingresar </button>      
+          </div>         
+            
+        
+  
+        <div id= "cifrado">
+          <button id="btnCifrado" >Cifrar</button>
+          <br><br> 
+        <textarea id="text1" rows="12" cols="45" placeholder="Escribe tu mensaje aca"></textarea>
+    
+        </div>
+        
+        <div id= "descifrado">
+          <button id="btnDescifrado" >Descifrar</button>
+          <br><br> 
+          <textarea id="text2" rows="12" cols="45" placeholder="Esta es tu nueva misión"></textarea>
+        </div>
+      
     </div>
+            
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
